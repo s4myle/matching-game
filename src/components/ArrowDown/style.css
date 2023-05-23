@@ -1,0 +1,18 @@
+.arrow-down {
+    position: relative;
+    width: 20px;
+    height: 15px;
+}
+
+
+.arrow-down > .arrow1 {
+    position: absolute;
+    left: 111px;
+    top: 2px;
+}
+
+.arrow-down > .arrow2 {
+    position: absolute;
+    left: 190px;
+    top: 2px;
+}
