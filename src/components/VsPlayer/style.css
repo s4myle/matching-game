@@ -1,5 +1,7 @@
 .vs-player {
+    font-size: 0.8rem;
     width: 16px;
     height: 8px;
+    color: var(--color-sandstorm);
     
 }
