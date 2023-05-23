@@ -1,8 +1,8 @@
 import './style.css';
 
-function VsPlayer() {
+function VsPlayer(content = "vs") {
     return /*html*/ `
-            <img class="vs-player" src="../../images/vs.png" alt='Versus in pixel art'>
+            <span class="vs-player">${content}</span>
         `;
 }
 
