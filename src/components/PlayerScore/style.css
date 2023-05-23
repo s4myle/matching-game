@@ -5,7 +5,6 @@
     color: #62C370;
     box-sizing: border-box;
     background: #828282;
-    grid-row: inherit;
 }
 
 .player-score::-webkit-progress-bar, ::-moz-progress-bar {
