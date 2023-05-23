@@ -1,8 +1,12 @@
 import "./style.css";
 
-function PlayerScore() {
+function PlayerScore(points = 0) {
     return /*html*/ `
-        <progress class="player-score" max="100" value="70"> 70%</progress>
+        <ol data-points="${points}"> 
+            <li>Um</li>
+            <li>Dois</li>
+            <li>Três</li>
+        </ol>
         `;
 }
 
