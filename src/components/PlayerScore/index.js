@@ -2,9 +2,9 @@ import "./style.css";
 
 function PlayerScore() {
     return /*html*/ `
-        <p class="player-score">
-            <p>Player 1 x Player 2</p>
-        </p>
+        <progress class="player-score" max="100" value="70"> 70%   >
+
+        </progress>
             `;
 }
 
